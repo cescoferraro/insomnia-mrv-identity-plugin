@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:web="http://schemas.microsoft.com/crm/2006/WebServices">
+    <soapenv:Header>
+        <web:AuthHeader>
+            <web:Token>
+                eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IlYtcjdtZlNuc29udmJTUk1nNlpyb3VBcmdRayJ9.eyJhdWQiOiJodHRwczovL21ydmNybTM2NS13ZWJhcGlxYXMuYXp1cmV3ZWJzaXRlcy5uZXQiLCJpc3MiOiJodHRwOi8vc3RzLm1ydi5jb20uYnIvYWRmcy9zZXJ2aWNlcy90cnVzdCIsImlhdCI6MTU5MDUzNDM4NCwiZXhwIjoxNTkwNTM3OTg0LCJhcHB0eXBlIjoiQ29uZmlkZW50aWFsIiwiYXBwaWQiOiIwMGI5YjI2NC05ZDk5LTRkZjAtOGNiNC01NzdlN2QxZDI5ZTQiLCJhdXRobWV0aG9kIjoiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2F1dGhlbnRpY2F0aW9ubWV0aG9kL3Bhc3N3b3JkIiwiYXV0aF90aW1lIjoiMjAyMC0wNS0yNlQyMzowNjoyNC4xODNaIiwidmVyIjoiMS4wIn0.tlXZGJvSvhRsEeEXYScnkiPZ1CGAFXH4pLZX7UBMsVj8kVjgMPDVwHBcMLKcO6l1c9tK3qyf14AX4nUUVkhyERgiOT6VqghtJmK9iXuAEIDkFryOaHwHvFvr3IqOo4HnOb2UF93kFWNR4dfaxMCBrR53TMMk5kVkRZ6Vg2cFORl6iIX7cEVixh92bgf8LhokFhsuEH2fi0biP1BduM16TyuEBOBFAeLNHoX_m0p5sfoQ2F5hwYUHVai4Sa5KYFHCKloe8lomoATpUjkN7TofSUy3Lk93pt-xWqKvI1x9X8bMmEAgT3Wi7-snOYSqUzxNdTaa2uLhiK8no-zEW_E_rA
+            </web:Token>
+        </web:AuthHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <web:ObterOportunidadesGanhas>
+            <web:documento>223.776.168-01</web:documento>
+            <web:tipoDocumento>CPF</web:tipoDocumento>
+        </web:ObterOportunidadesGanhas>
+    </soapenv:Body>
+</soapenv:Envelope>
